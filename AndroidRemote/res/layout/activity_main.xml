@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="10sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0sp"
+	    android:layout_weight="1"
+	    android:background="#000000"
+	    android:padding="10sp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical" >
+	    
+        <ImageButton
+	        android:id="@+id/btnOn1"
+	        android:layout_width="50sp"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitCenter"
+	        android:background="#000000"
+	        android:src="@drawable/on" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans"
+            android:gravity="center_horizontal"
+            android:text="Left"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        
+        <ImageButton
+	        android:id="@+id/btnOff1"
+	        android:layout_width="50sp"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitCenter"
+	        android:background="#000000"
+	        android:src="@drawable/off" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0sp"
+	    android:layout_weight="1"
+	    android:background="#000000"
+	    android:padding="10sp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical" >
+	    
+        <ImageButton
+            android:id="@+id/btnOn2"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/on" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans"
+            android:gravity="center_horizontal"
+            android:text="Right"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        
+        <ImageButton
+            android:id="@+id/btnOff2"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/off" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0sp"
+	    android:layout_weight="1"
+	    android:background="#000000"
+	    android:padding="10sp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical" >
+	    
+        <ImageButton
+            android:id="@+id/btnOn3"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/on" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans"
+            android:gravity="center_horizontal"
+            android:text="Center"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        
+        <ImageButton
+            android:id="@+id/btnOff3"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/off" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0sp"
+	    android:layout_weight="1"
+	    android:background="#000000"
+	    android:padding="10sp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:visibility="gone" >
+	    
+        <ImageButton
+            android:id="@+id/btnOn4"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/on" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans"
+            android:gravity="center_horizontal"
+            android:text="D"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        
+        <ImageButton
+            android:id="@+id/btnOff4"
+            android:layout_width="50sp"
+            android:layout_height="wrap_content"
+            android:background="#000000"
+            android:scaleType="fitCenter"
+            android:src="@drawable/off" />
+	    
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0sp"
+	    android:layout_weight="1"
+	    android:background="#000000"
+	    android:padding="10sp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical" >
+	    
+        <ImageButton
+	        android:id="@+id/btnOn5"
+	        android:layout_width="50sp"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitCenter"
+	        android:background="#000000"
+	        android:src="@drawable/on" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans"
+            android:gravity="center_horizontal"
+            android:text="LED"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+        
+        <ImageButton
+	        android:id="@+id/btnOff5"
+	        android:layout_width="50sp"
+	        android:layout_height="wrap_content"
+	        android:scaleType="fitCenter"
+	        android:background="#000000"
+	        android:src="@drawable/off" />
+	    
+    </LinearLayout>
+
+</LinearLayout>
